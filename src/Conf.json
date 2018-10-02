@@ -1,0 +1,18 @@
+{
+  "sitename": "Python Reads",
+  "repository": "https://github.com/KwangYeol/python-reads",
+  "tab": [
+    {
+      "name": "Idioms",
+      "data": "idioms.json"
+    },
+    {
+      "name": "Convention",
+      "data": "convention.json"
+    },
+    {
+      "name": "Virtual Environment",
+      "data": "virtualenv.json"
+    }
+  ]
+}

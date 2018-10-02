@@ -1,0 +1,20 @@
+[
+  {
+    "header": "Pythonic idioms",
+    "meta": "Python's Magic Methods",
+    "subitems": [
+      {
+        "name": "Python Tricks 101",
+        "link": "https://hackernoon.com/python-tricks-101-2836251922e0"
+      },
+      {
+        "name": "A Guide to Python's Magic Methods",
+        "link": "https://rszalski.github.io/magicmethods/"
+      },
+      {
+        "name": "List comprehension in Python",
+        "link": "https://hackernoon.com/list-comprehension-in-python-8895a785550b"
+      }
+    ]
+  }
+]

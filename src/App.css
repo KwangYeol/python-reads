@@ -1,0 +1,35 @@
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.ui.segment .header#card_header {
+  color: #cd350d;
+
+  transform: scale(1, 1.3);
+  -webkit-transform: scale(1, 1.3); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.3); /* Firefox */
+  -ms-transform: scale(1, 1.3); /* IE 9+ */
+  -o-transform: scale(1, 1.3); /* Opera */
+
+  font-family: "Indie Flower";
+  background-image: linear-gradient(#ffe359, #fff2ac);
+  background-size: 1em 0.4em;
+  background-position: 0em 0.55em;
+  padding-bottom: 0.3em;
+  background-repeat: repeat-x;
+}
+
+.ui.list .list > .item a.header,
+.ui.list > .item a.header {
+  fontsize: "1.2em";
+  fontweight: "normal";
+  color: #cd350d;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: translate(0px, 0px); }
+  10% { transform: translate(0px, 10px); }
+  30% { transform: translate(0px, 10px); }
+  50% { transform: translate(0px, 0px); }
+}
