@@ -9,7 +9,7 @@ class DataPane extends Component {
 
   componentWillMount() {
     const { source } = this.props;
-    const jsonFile = `../data/${source}`;
+    const jsonFile = `/data/${source}`;
 
     axios.get(jsonFile)
       .then(response => {
@@ -45,8 +45,6 @@ class DataPane extends Component {
     if (!!!paneData || paneData.length < 1) {
       return <p>Loading ...</p>
     }
-
-    console.log(paneData);
 
     let cards = [];
     paneData.forEach(item => {
