@@ -4,15 +4,15 @@
   "tab": [
     {
       "name": "Idioms",
-      "data": "idioms.json"
+      "data": "idioms"
     },
     {
       "name": "Convention",
-      "data": "convention.json"
+      "data": "convention"
     },
     {
       "name": "Virtual Environment",
-      "data": "virtualenv.json"
+      "data": "virtualenv"
     }
   ]
 }

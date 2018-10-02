@@ -9,7 +9,7 @@ class DataPane extends Component {
 
   componentWillMount() {
     const { source } = this.props;
-    const jsonFile = `/data/${source}`;
+    const jsonFile = `${window.location.href}/data/${source}.json`;
 
     axios.get(jsonFile)
       .then(response => {

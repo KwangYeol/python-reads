@@ -18,6 +18,15 @@ npm run start
 2. Update `tab` item of `src/Conf.json`, if you create or delete json files in `public/data` directory
 
 
+## How to deploy
+
+It uses `gh-pages` to deploy. It create and update a branch named `gh-pages`.
+
+```
+npm run deploy
+```
+
+
 ## Your own X-reads
 
 1. Fork this repository.
